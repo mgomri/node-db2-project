@@ -1,4 +1,3 @@
-
 exports.seed = function(knex) {
   // Deletes ALL existing entries
   return knex('cars').truncate()
@@ -17,7 +16,7 @@ exports.seed = function(knex) {
           VIN:'JA3AP57J5SY000719',
           make:'Mitsubishi', 
           model:'Diamante',
-          milage:178211,
+          milage:156323,
           transmission:'automatic',
           title:'clear'
         },
@@ -26,7 +25,7 @@ exports.seed = function(knex) {
           VIN:'JN8AZ28R49T122921',
           make:'Nissan', 
           model:'Cube',
-          milage:178211,
+          milage:95684,
           transmission:'standard',
           title:'clear'
         }
